@@ -1,0 +1,28 @@
+.footer {
+  border-top: 1px solid var(--border);
+  padding: 2.5rem 2rem;
+  text-align: center;
+}
+
+.footer-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-brand {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.footer-text {
+  color: var(--text-2);
+  font-size: 0.88rem;
+  margin-bottom: 0.3rem;
+}
+
+.footer-copy {
+  color: var(--text-3);
+  font-size: 0.78rem;
+}

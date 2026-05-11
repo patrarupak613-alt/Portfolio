@@ -1,0 +1,11 @@
+.app {
+  min-height: 100vh;
+  background: var(--bg);
+}
+
+.section-divider {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--border), transparent);
+}
