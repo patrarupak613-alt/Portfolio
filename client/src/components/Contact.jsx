@@ -15,7 +15,7 @@ export default function Contact() {
 
   try {
     const response = await fetch(
-      "https://portfolio-v7s8.onrender.com/",
+      "https://portfolio-v7s8.onrender.com/api/contact",
       {
         method: "POST",
 
