@@ -9,15 +9,45 @@ export default function Contact() {
   const handleChange = e => setForm({ ...form, [e.target.name]: e.target.value })
 
   const handleSubmit = async (e) => {
-    e.preventDefault()
-    setLoading(true)
-    // Simulate API call — connect to your backend here
-    await new Promise(r => setTimeout(r, 1500))
-    setStatus('success')
-    setLoading(false)
-    setForm({ name: '', email: '', subject: '', message: '' })
-    setTimeout(() => setStatus(null), 5000)
+  e.preventDefault()
+
+  setLoading(true)
+
+  try {
+    const response = await fetch(
+      "https://portfolio-v7s8.onrender.com/",
+      {
+        method: "POST",
+
+        headers: {
+          "Content-Type": "application/json",
+        },
+
+        body: JSON.stringify(form),
+      }
+    )
+
+    if (response.ok) {
+      setStatus("success")
+
+      setForm({
+        name: "",
+        email: "",
+        subject: "",
+        message: "",
+      })
+    } else {
+      setStatus("error")
+    }
+
+  } catch (error) {
+    setStatus("error")
   }
+
+  setLoading(false)
+
+  setTimeout(() => setStatus(null), 5000)
+}
 
   return (
     <section className="contact section" id="contact">
