@@ -27,21 +27,21 @@
 
 .blob-1 {
   width: 500px; height: 500px;
-  background: var(--accent);
+  background: #ff7c2a;
   top: -100px; left: -100px;
   animation: float 8s ease-in-out infinite;
 }
 
 .blob-2 {
   width: 400px; height: 400px;
-  background: var(--accent-2);
+  background: #ff3d6e;
   bottom: -50px; right: -50px;
   animation: float 10s ease-in-out infinite reverse;
 }
 
 .blob-3 {
   width: 300px; height: 300px;
-  background: var(--accent-3);
+  background: #ffb347;
   top: 50%; left: 50%;
   transform: translate(-50%, -50%);
   animation: float 12s ease-in-out infinite 2s;
@@ -102,7 +102,7 @@
   display: block;
   font-size: clamp(3rem, 7vw, 5.5rem);
   font-weight: 800;
-  background: linear-gradient(135deg, #fff 0%, var(--accent) 50%, var(--accent-2) 100%);
+  background: linear-gradient(135deg, #fff 0%, #ff7c2a 50%, #ff3d6e 100%);
   background-size: 200% 200%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -245,19 +245,7 @@
 }
 
 .avatar-placeholder {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.hero-avatar {
-  width: 160px;
-  height: 160px;
-  object-fit: cover;
-  border-radius: 50%;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.18);
+  color: var(--text-3);
 }
 
 .orbit-pill {

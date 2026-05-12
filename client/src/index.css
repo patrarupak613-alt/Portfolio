@@ -7,19 +7,19 @@
 }
 
 :root {
-  --bg: #0a0a0f;
-  --bg-2: #111118;
-  --bg-3: #16161f;
-  --accent: #7c6aff;
-  --accent-2: #ff6a8e;
-  --accent-3: #6af0d4;
-  --text: #f0eff8;
-  --text-2: #9896ae;
-  --text-3: #5c5a72;
-  --border: rgba(255,255,255,0.07);
-  --border-hover: rgba(255,255,255,0.15);
-  --card: rgba(255,255,255,0.03);
-  --card-hover: rgba(255,255,255,0.06);
+  --bg: #0f0a08;
+  --bg-2: #1a1008;
+  --bg-3: #211508;
+  --accent: #ff7c2a;
+  --accent-2: #ff3d6e;
+  --accent-3: #ffb347;
+  --text: #fdf3ec;
+  --text-2: #c4a98f;
+  --text-3: #7a5c45;
+  --border: rgba(255,180,100,0.08);
+  --border-hover: rgba(255,180,100,0.18);
+  --card: rgba(255,140,60,0.04);
+  --card-hover: rgba(255,140,60,0.08);
   --font-display: 'Syne', sans-serif;
   --font-body: 'DM Sans', sans-serif;
   --radius: 16px;

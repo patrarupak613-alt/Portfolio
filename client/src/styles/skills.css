@@ -69,7 +69,7 @@
   position: absolute;
   top: 0; left: 0; right: 0;
   height: 2px;
-  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+  background: linear-gradient(90deg, #ff7c2a, #ff3d6e);
   opacity: 0;
   transition: opacity 0.3s;
 }
@@ -129,7 +129,7 @@
   height: 100%;
   width: var(--pct);
   border-radius: 100px;
-  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+  background: linear-gradient(90deg, #ff7c2a, #ff3d6e);
   animation: fillBar 1.2s ease-out both;
 }
 

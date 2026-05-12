@@ -44,7 +44,7 @@ export default function Navbar() {
 
         <a
           className="nav-cta"
-          href="mailto:rupak@email.com"
+          href="mailto:patrarupak613@gmail.com"
         >
           Hire me
         </a>
@@ -64,7 +64,7 @@ export default function Navbar() {
             {l}
           </button>
         ))}
-        <a className="mobile-cta" href="mailto:rupak@email.com">Hire me</a>
+        <a className="mobile-cta" href="mailto:patrarupak613@gmail.com">Hire me</a>
       </div>
     </nav>
   )
